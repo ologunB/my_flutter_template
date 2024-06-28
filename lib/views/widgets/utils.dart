@@ -81,7 +81,7 @@ class Utils {
         "Yobe",
         "Zamfara",
       ];
-  static String get googleKey => 'AIzaSyDa-Rb_DceGzTMkKuSPdPpMevXbzu1IKUY';
+  static String get googleKey => 'GOOGLE_KEY';
   static List<String> extractCityAndState(String desc) {
     List<String> parts = desc.split(',');
     String city = '';
